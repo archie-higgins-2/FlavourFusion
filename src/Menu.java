@@ -14,52 +14,30 @@ public class Menu {
     /**
      * The list of recipes included in the menu.
      */
-    private List<Recipe> recipes;
-
-    /**
-     * The list of wines recommended for the menu.
-     */
-    private List<Wine> wines;
+    private List<Dish> dishes;
 
     /**
      * Constructs a new Menu instance with empty lists of recipes and wines.
      * Initializes the menu with no recipes or wines added.
      */
     public Menu() {
-        this.recipes = new ArrayList<>();
-        this.wines = new ArrayList<>();
+        this.dishes = new ArrayList<>();
     }
 
     /**
      * Adds a recipe to the menu.
-     * @param recipe The Recipe object to be added to the menu's list of recipes.
+     * @param dish The Recipe object to be added to the menu's list of recipes.
      */
-    public void addRecipe(Recipe recipe) {
-        recipes.add(recipe);
-    }
-
-    /**
-     * Adds a wine to the menu.
-     * @param wine The Wine object to be added to the menu's list of wines.
-     */
-    public void addWine(Wine wine) {
-        wines.add(wine);
+    public void addRecipe(Dish dish) {
+        dishes.add(dish);
     }
 
     /**
      * Retrieves the list of recipes in the menu.
      * @return A list of Recipe objects contained in the menu.
      */
-    public List<Recipe> getRecipes() {
-        return recipes;
-    }
-
-    /**
-     * Retrieves the list of wines recommended for the menu.
-     * @return A list of Wine objects recommended for the menu.
-     */
-    public List<Wine> getWines() {
-        return wines;
+    public List<Dish> getRecipes() {
+        return dishes;
     }
 
 }

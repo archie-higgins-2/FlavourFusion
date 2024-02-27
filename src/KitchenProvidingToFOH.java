@@ -15,5 +15,5 @@ public interface KitchenProvidingToFOH {
      * @param dishes The current menu to check for availability.
      * @return ArrayList<Recipe> A list of dishes that are unavailable.
      */
-    ArrayList<Recipe> sendUnavailableDish(Menu dishes);
+    ArrayList<Dish> sendUnavailableDish(Menu dishes);
 }

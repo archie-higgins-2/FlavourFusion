@@ -25,9 +25,6 @@ public class Dish {
     /** Price of the dish. */
     private double price;
 
-    /** List to store suggested wines for the recipe. */
-    private List<Wine> suggestedWines;
-
     /** Indicates whether the dish is currently available. */
     private boolean isAvailable;
     /**
@@ -39,13 +36,12 @@ public class Dish {
      * @param preparationInfo The preparation instructions.
      * @param appearanceInfo The description of the dish's appearance.
      */
-    public Recipe(String id, String dishName, Map<Ingredient, String> ingredients, String preparationInfo, String appearanceInfo) {
+    public Dish(String id, String dishName, Map<Ingredient, String> ingredients, String preparationInfo, String appearanceInfo) {
         this.id = id;
         this.dishName = dishName;
         this.ingredients = ingredients;
         this.preparationInfo = preparationInfo;
         this.appearanceInfo = appearanceInfo;
-        this.suggestedWines = new ArrayList<>();
         this.price = 0;
         this.isAvailable = true;
     }
@@ -76,11 +72,11 @@ public class Dish {
 
     /**
      * Checks the availability of the dish directly from a Recipe instance.
-     * @param recipe The dish to check availability for.
+     * @param dish The dish to check availability for.
      * @return true if the dish specified by the recipe is available, false otherwise.
      */
-    public boolean checkDishAvailability(Recipe recipe) {
-        return recipe.isAvailable();
+    public boolean checkDishAvailability(Dish dish) {
+        return dish.isAvailable();
     }
 
     /**
@@ -113,16 +109,6 @@ public class Dish {
      */
     public String getAppearanceInfo() {
         return appearanceInfo;
-    }
-
-    /**
-     * Adds a list of suggested wines to the recipe.
-     * @param wines A list of wines to be suggested with the recipe.
-     */
-    public void addSuggestedWines(List<Wine> wines) {
-        if (wines != null) {
-            suggestedWines.addAll(wines);
-        }
     }
 
     /**
