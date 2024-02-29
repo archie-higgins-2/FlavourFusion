@@ -1,3 +1,10 @@
+package Interfaces;
+
+import Classes.Dish;
+import Classes.Menu;
+import Classes.Order;
+import Enums.CourseStatus;
+
 import java.util.ArrayList;
 /**
  * This interface defines the contract between the Kitchen Team and Front-Of-House (FOH) Team, allowing the kitchen to
@@ -7,7 +14,7 @@ public interface KitchenProvidingToFOH {
 
     /**
      * @param order The order containing the course to check for readiness.
-     * @return CourseStatus Enum indicating the current status of the course.
+     * @return Enums.CourseStatus Enum indicating the current status of the course.
      */
     CourseStatus isCourseReady(Order order);
 

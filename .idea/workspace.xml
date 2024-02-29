@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82878771-bb9f-4336-8ea7-624dc79a7839" name="Changes" comment="">
+    <list default="true" id="82878771-bb9f-4336-8ea7-624dc79a7839" name="Changes" comment="Updating draft base files to work on">
+      <change afterPath="$PROJECT_DIR$/src/IngredientStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/FOHProvidingToKitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ManagementProvidingToKitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/StockCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KitchenProvidingToFOH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KitchenProvidingToFOH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KitchenProvidingToFOH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/KitchenProvidingToFOH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KitchenProvidingToManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/KitchenProvidingToManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +62,18 @@
       <option name="presentableId" value="Default" />
       <updated>1709050525801</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updating draft base files to work on">
+      <created>1709052313234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709052313234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating draft base files to work on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating draft base files to work on" />
   </component>
 </project>

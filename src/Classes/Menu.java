@@ -1,4 +1,7 @@
-import java.util.ArrayList;
+package Classes;
+
+import Classes.Dish;
+
 import java.util.List;
 /**
  * This class represents a menu containing a collection of recipes and wines pairing and allows for the addition and
@@ -17,11 +20,12 @@ public class Menu {
     private List<Dish> dishes;
 
     /**
-     * Constructs a new Menu instance with empty lists of recipes and wines.
+     * Constructs a new Classes.Menu instance with empty lists of recipes and wines.
      * Initializes the menu with no recipes or wines added.
      */
-    public Menu() {
-        this.dishes = new ArrayList<>();
+    public Menu(List<Dish> dishes, String menuID) {
+        this.menuID = menuID;
+        this.dishes = dishes;
     }
 
     /**
