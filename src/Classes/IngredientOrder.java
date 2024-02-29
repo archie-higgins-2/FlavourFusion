@@ -1,3 +1,5 @@
+package Classes;
+
 /**
  * This class represents an order for a specific ingredient including its name, quantity, and unit.
  */
@@ -19,7 +21,7 @@ public class IngredientOrder {
     private String unit;
 
     /**
-     * Constructs a new IngredientOrder with the specified name, quantity, and unit.
+     * Constructs a new Classes.IngredientOrder with the specified name, quantity, and unit.
      *
      * @param ingredientName The name of the ingredient.
      * @param quantity The quantity of the ingredient.

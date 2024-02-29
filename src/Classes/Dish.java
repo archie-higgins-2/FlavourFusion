@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
+package Classes;
+
 import java.util.Map;
 
 /**
@@ -13,7 +13,7 @@ public class Dish {
     /** Name of the dish. */
     private String dishName;
 
-    /** Map of Ingredient objects to their quantities. */
+    /** Map of Classes.Ingredient objects to their quantities. */
     private Map<Ingredient, String> ingredients;
 
     /** Preparation instructions for the dish. */
@@ -120,7 +120,7 @@ public class Dish {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Recipe: ").append("\n");
-        sb.append("Dish Name: ").append(dishName).append("\n");
+        sb.append("Classes.Dish Name: ").append(dishName).append("\n");
         sb.append("Ingredients:").append("\n");
         ingredients.forEach((ingredient, quantity) -> sb.append(ingredient).append(": ").append(quantity).append("\n"));
         sb.append("\n").append("Preparation Description: ").append(preparationInfo).append("\n");

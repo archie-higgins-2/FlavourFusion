@@ -1,3 +1,5 @@
+package Classes;
+
 /**
  * This class represents an order for a specific wine including its name and quantity.
  */
@@ -14,7 +16,7 @@ public class WineOrder {
     private double quantity;
 
     /**
-     * Constructs a new WineOrder with the specified name and quantity.
+     * Constructs a new Classes.WineOrder with the specified name and quantity.
      *
      * @param wineName The name of the ingredient.
      * @param quantity The quantity of the ingredient.

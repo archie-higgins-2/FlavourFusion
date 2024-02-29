@@ -1,3 +1,7 @@
+package Classes;
+
+import Classes.Course;
+
 import java.util.List;
 
 /** This class represents an order placed which consists of multiple dishes, a unique identifier, a table identifier,
@@ -17,7 +21,7 @@ public class Order {
     private String note;
 
     /**
-     * Constructs a new Order instance.
+     * Constructs a new Classes.Order instance.
      *
      * @param id The unique identifier for the order.
      * @param tableId The table identifier where the order is placed.
