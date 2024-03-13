@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82878771-bb9f-4336-8ea7-624dc79a7839" name="Changes" comment="Updating draft base files to work on">
-      <change afterPath="$PROJECT_DIR$/src/IngredientStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/FOHProvidingToKitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/ManagementProvidingToKitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/StockCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boundaries/LoginInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/RecipeCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Wasteage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KitchenProvidingToFOH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/KitchenProvidingToFOH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KitchenProvidingToManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/KitchenProvidingToManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/IngredientOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/IngredientOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/IngredientStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/WineOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/KitchenProvidingToManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/KitchenProvidingToManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/StockCommands.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\archie\IdeaProjects\Flavour Fusion\src" />
@@ -61,6 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709050525801</updated>
+      <workItem from="1709215209629" duration="4424000" />
+      <workItem from="1710339099499" duration="5742000" />
     </task>
     <task id="LOCAL-00001" summary="Updating draft base files to work on">
       <created>1709052313234</created>
@@ -71,6 +77,20 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating draft base files to work on" />
