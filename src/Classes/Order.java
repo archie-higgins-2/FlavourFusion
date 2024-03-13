@@ -30,6 +30,7 @@ public class Order {
      */
     public Order(int id, int tableId, String note, List<Course> courses) {
         this.id = id;
+        this.tableId = tableId;
         this.note = note;
         this.courses = courses;
     }
