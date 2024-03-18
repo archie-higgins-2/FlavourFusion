@@ -5,26 +5,17 @@ package Classes;
  */
 public class IngredientOrder {
 
+    /** Unique identifier for the order. */
     private int orderID;
 
-    /**
-     * The name of the ingredient.
-     */
+    /** The name of the ingredient. */
     private String ingredients;
 
-    /**
-     * The quantity of the ingredient needed.
-     */
+    /** The quantity of the ingredient needed. */
     private double quantity;
 
     /**
-     * The unit of measurement for the quantity of the ingredient (e.g., kg, l, boxes etc.).
-     */
-
-
-    /**
-     * Constructs a new Classes.IngredientOrder with the specified name, quantity, and unit.
-     *
+     * Constructs a new IngredientOrder with the specified name and quantity.
      * @param ingredientName The name of the ingredient.
      * @param quantity The quantity of the ingredient.
      */
@@ -33,52 +24,44 @@ public class IngredientOrder {
         this.quantity = quantity;
     }
 
-    /**
-     * Returns the name of the ingredient.
-     * @return The name of the ingredient.
-     */
+    /** Returns the name of the ingredient. */
     public String getIngredients() {
         return ingredients;
     }
 
-    /**
-     * Returns the quantity of the ingredient.
-     * @return The quantity of the ingredient.
-     */
+    /** Returns the quantity of the ingredient. */
     public double getQuantity() {
         return quantity;
     }
 
+    /** Sets the quantity of the ingredient. */
     public void setQuantity(double amount){
         this.quantity = amount;
     }
 
-
-    /**
-     * Returns a string representation of the ingredient order, including the ingredient name,
-     * quantity, and unit.
-     * @return A string representation of the ingredient order.
-     */
+    /** Returns a string representation of the ingredient order, including the ingredient name and quantity. */
     @Override
     public String toString() {
         return ingredients + ":" + quantity;
     }
 
+    /** Returns the order ID. */
     public int getOrderID() {
         return orderID;
     }
 
+    /** Sets the order ID. */
     public void setOrderID(int orderID) {
         this.orderID = orderID;
     }
 
+    /** Method to deliver the ingredients. */
     public void deliverIngredients(){
 
     }
 
+    /** Method to confirm availability time for the ingredients. */
     public void confirmedIngredientsAvailabilityTime(){
 
     }
-
-
 }
